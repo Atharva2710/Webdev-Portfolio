@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharva Agrawal — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="gradient-text">Atharva Agrawal</span>
+            </a>
+            
+            <nav class="desktop-nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#connect" class="nav-link">Connect</a>
+            </nav>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+            <label for="menu-toggle" class="menu-toggle-label">
+                <svg class="menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </label>
+
+            <div class="mobile-menu">
+                <nav class="mobile-nav">
+                     <a href="#about" class="nav-link-mobile">About</a>
+                     <a href="#skills" class="nav-link-mobile">Skills</a>
+                     <a href="#projects" class="nav-link-mobile">Projects</a>
+                     <a href="#achievements" class="nav-link-mobile">Achievements</a>
+                     <a href="#connect" class="nav-link-mobile">Connect</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+
+        <section id="hero" class="hero-section">
+            <div class="profile-image-container">
+                 <img src="photo.png" alt="Atharva Agrawal" class="profile-image">
+            </div>
+            <h1 class="hero-title">Atharva Agrawal</h1>
+            <p class="hero-subtitle">AI Enthusiast, Aspiring Founder, and Tech Innovator</p>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2 class="section-heading"> About Me</h2>
+            <div class="section-card about-card">
+                <p>
+                    I’m <span class="highlight-accent">Atharva Agrawal</span>, a first-year student at the prestigious <span class="highlight-white">Scaler School of Technology & BITS Pilani</span>, with a passion for AI, pioneering startups, and engineering elegant tech solutions.
+                    <br><br>
+                    I enjoy experimenting with new ideas, solving complex problems, and creating projects with precision and modern flair.
+                </p>
+            </div>
+        </section>
+
+        <section id="education" class="content-section">
+            <h2 class="section-heading">🎓 Education</h2>
+             <div class="section-card education-card">
+                <h3 class="card-title">Scaler School of Technology & BITS Pilani</h3>
+                <p class="card-subtitle">Bachelor's Degree (In Progress) — 2025–2029</p>
+                <p class="card-text">Building a strong foundation in computer science, software engineering, and artificial intelligence.</p>
+            </div>
+        </section>
+
+
+        <section id="skills" class="content-section">
+            <h2 class="section-heading">🛠️ Skills</h2>
+            <div class="skills-grid">
+                <div class="section-card">
+                    <h3 class="card-title">Programming Languages</h3>
+                    <div class="tags-container">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag-secondary">Html/Css</span>
+                        <span class="skill-tag-accent">JavaScript</span>
+                        <span class="skill-tag">Java</span>
+                    </div>
+                </div>
+                <div class="section-card">
+                    <h3 class="card-title">Tools & Platforms</h3>
+                    <div class="tags-container">
+                        <span class="skill-tag-secondary">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag-accent">PyCharm</span>
+                        <span class="skill-tag">Replit</span>
+
+
+                    </div>
+                </div>
+                <div class="section-card">
+                    <h3 class="card-title">Interests</h3>
+                    <div class="tags-container">
+                        <span class="skill-tag-accent">Artificial Intelligence</span>
+                        <span class="skill-tag">Startups</span>
+                        <span class="skill-tag-secondary">Software Development</span>
+                        <span class="skill-tag">Machine Learning</span>
+                         <span class="skill-tag-secondary">Problem-Solving</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2 class="section-heading">💻 Projects</h2>
+            <div class="projects-grid">
+                <div class="section-card project-card">
+                    <div class="card-content">
+                        <h3 class="card-title">Crypto Tracker</h3>
+                        <p class="card-text">A Python-based tool that tracks and displays real-time cryptocurrency prices, helping users monitor the market.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag-secondary">API</span>
+                    </div>
+                </div>
+                <div class="section-card project-card">
+                    <div class="card-content">
+                        <h3 class="card-title">Hand Gesture Detection</h3>
+                        <p class="card-text">Built a prototype that tracks hand gestures using a webcam for controlling actions in real-time.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag-secondary">OpenCV</span>
+                    </div>
+                </div>
+                <div class="section-card project-card">
+                    <div class="card-content">
+                        <h3 class="card-title">Data Structures & Algorithms</h3>
+                        <p class="card-text">Solving problems on arrays, sets, and graph representations to strengthen logic building.</p>
+                    </div>
+                    <div class="card-footer">
+                         <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+                <div class="section-card project-card">
+                    <div class="card-content">
+                        <h3 class="card-title">Personal Portfolio Website</h3>
+                        <p class="card-text">Designing my own online presence to showcase projects and my learning journey.</p>
+                    </div>
+                    <div class="card-footer">
+                         <span class="skill-tag-accent">HTML</span>
+                         <span class="skill-tag-secondary">CSS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="content-section">
+            <h2 class="section-heading">📌 Achievements & Activities</h2>
+            <div class="section-card achievements-card">
+                <ul class="achievements-list">
+                    <li><span class="checkmark">◆</span> Member of coding and tech clubs at college</li>
+                    <li><span class="checkmark">◆</span> Active learner in DevOps, AI, and software tools</li>
+                    <li><span class="checkmark">◆</span> Passion for Table Tennis, Chess, and Cricket (balance is key)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="connect" class="connect-section">
+            <h2 class="section-heading">🌍 Connect With Me</h2>
+            <p class="connect-text">Feel free to reach out for collaborations, questions, or just a friendly chat!</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/atharva-agrawal2710/" target="_blank" class="social-icon">
+                    <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"/></svg>
+                </a>
+                 <a href="https://github.com/Atharva2710" target="_blank" class="social-icon">
+                    <svg fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.419 2.865 8.166 6.839 9.49.5.09.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.156-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.112-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.446-1.27.098-2.645 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.82c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.375.201 2.392.1 2.645.64.698 1.03 1.59 1.03 2.682 0 3.841-2.339 4.688-4.566 4.935.359.308.678.92.678 1.852 0 1.338-.012 2.419-.012 2.746 0 .267.18.577.688.48C19.135 20.165 22 16.418 22 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd"/></svg>
+                </a>
+                 <a href="mailto:atharvaagrawalind@gmail.com" class="social-icon">
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <p>&copy; 2025 Atharva Agrawal. Designed with modern elegance.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
